@@ -7,7 +7,7 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="Top5Employee">
+    <DataSet Name="Top5Employees">
       <Fields>
         <Field Name="EmployeeName">
           <DataField>EmployeeName</DataField>
@@ -1081,6 +1081,7 @@ group by dd.[Day_Name],dd.[year],dd.Month_Name,dd.Week_Number_Of_Month,dd.day_nu
                 <Minimum>NaN</Minimum>
                 <Maximum>NaN</Maximum>
                 <AllowLabelRotation>None</AllowLabelRotation>
+
               </ChartAxis>
               <ChartAxis Name="Secondary">
                 <Style>
